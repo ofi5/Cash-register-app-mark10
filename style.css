@@ -1,0 +1,117 @@
+:root{
+    display: block;
+    margin: auto;
+  
+    background-color: rgb(2, 8, 58);
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+#container{
+    margin: auto;
+    border: solid 5px rgb(92, 7, 7);
+    width: 50%;
+    background-color: rgb(4, 14, 97);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+h1{
+    
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    color: rgb(157, 250, 64);
+}
+
+#billLabel {
+    display: block;
+    text-align: center;
+    
+    font-size: 2rem;
+    color:chartreuse;
+    font-style: italic;
+}
+
+#bill {
+    display: block;
+    text-align: center;
+    width: 80%;
+    border: solid 1px yellow;
+    margin: auto;
+    height: 2rem;
+    color: rgb(9, 13, 209);
+    font-weight: bolder;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#cash {
+    display:none;
+    text-align: center;
+    width: 80%;
+    border: solid 1px yellow;
+    margin: auto;
+    height: 2rem;
+    color: rgb(9, 31, 160);
+    font-weight: bolder;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#cashLabel  {
+    display: none;
+    text-align: center;
+    
+    font-size: 2rem;
+    color:chartreuse;
+    font-style: italic;
+}
+
+
+#btn {
+     display: block;
+     font-style: italic; 
+     font-size: 2rem;
+     width: 50%;
+     margin: auto;
+     color:rgb(114, 9, 9);
+     margin-top: 20px;
+     margin-bottom: 20px;
+     background-color: chartreuse;
+     border-radius: 8px;
+     font-weight: bolder;
+}
+
+#btn:hover {
+    background-color: rgb(61, 9, 9);
+    color: chartreuse;
+}
+
+table {
+    
+    display:block
+}
+
+td ,tr {
+    border: solid 2px rgb(68, 4, 4);
+    width: 12%;
+    font-weight: bolder;
+    text-align: center;
+    height: 3rem;
+    color: chartreuse;
+    font-size: 1.5rem;
+    font-style: italic;
+    
+    
+}
+
+#message{
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(106, 189, 24);
+
+}
